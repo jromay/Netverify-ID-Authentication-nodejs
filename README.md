@@ -1,4 +1,5 @@
 Set the following variables relative to your jumio netverify account/application
+
 ```
 lib/main.js
 	user-agent
@@ -12,3 +13,10 @@ public/app/controllers/main.js
 
 - npm install
 - npm start
+
+
+
+Refer to the documentation for more info:
+```
+https://www.jumio.com/downloads/pdf/netverify-implementation-guide_v1_7_5.pdf
+```
