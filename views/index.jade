@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    script(src='https://netverify.com/widget/jumio-verify/2.0/iframe-script.js')
+    script(type='text/javascript')
+      ' ' + /*<![CDATA[*/
+      JumioClient.setVars({
+      authorizationToken: 'ce19ca6e-d05a-4d8f-b2fc-98be0dc2062d'
+      })
+      JumioClient.initVerify("JUMIOIFRAME")
+      /*]]>*/
+  body
+    h1 Returned auth token : #{authorizationToken}
+    include jumio.html
