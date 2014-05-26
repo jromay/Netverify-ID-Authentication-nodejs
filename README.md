@@ -2,7 +2,7 @@ Set the following variables relative to your jumio netverify account/application
 ```
 lib/main.js
 	user-agent
-	Authorization // (API)
+	Authorization
 	successUrl
 	errorUrl
 	callbackUrl
