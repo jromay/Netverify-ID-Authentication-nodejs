@@ -10,5 +10,5 @@ public/app/controllers/main.js
 	url (your server's endpoint)
 ```
 
-npm install
-npm start
+- npm install
+- npm start
